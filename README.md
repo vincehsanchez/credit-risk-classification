@@ -25,10 +25,12 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
+    
      **Class 0**
      - Precision has not changed and no false postives.
      - Recall is the same, and can accuratly identify.
      - F1-Score is same and shows good performance.
+       
      **Class 1**
      - Precision has decreased, which may indicate that it will have moe false positves,
      - Recall has increased to .99 where it can correctly identify with accuracy.
