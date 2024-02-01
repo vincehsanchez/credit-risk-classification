@@ -1,6 +1,6 @@
 # Module 12 Report Template
 
-## Overview of the Analysis
+### Overview of the Analysis
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
@@ -10,7 +10,7 @@ In this section, describe the analysis you completed for the machine learning mo
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
-## Results
+### Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
@@ -34,12 +34,12 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
      **Class 1**
      - Precision has decreased, which may indicate that it will have moe false positves,
      - Recall has increased to .99 where it can correctly identify with accuracy.
-     - F1-Score has slightly increased to stronger .91 and providing inporoved performance even with a lower precision value.
+     - F1-Score has slightly increased to stronger .91 and providing improved performance even with a lower precision value.
 
-## Summary
+### Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
+ - The second model performes best, and despite the resuls of Class 0 do not change the increased performance and imrroved abliity to acuratley identify for Class 0 is good indication of a better model esepecially for imbalalanced datasets.
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+ - The performance is relative to the problem at hand, sometimes we just need something to do the job and sometimes we focus on the performance to compensate for instances of data imbalances.
