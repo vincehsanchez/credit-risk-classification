@@ -9,13 +9,17 @@
 1.  Split our data into Training and Testing Sets.
 2.  Created a logistic regression model with the orginal data.
 3.  Evaluated the model's performance by:
-   - generating a confusion matrix
-   - priting the classificatino report 
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+  - generating a confusion matrix
+  - printing the classification report 
+4. Create a second logistic regression model with resampled data since the orignal dataset was imbalanced.
+  - used RandomOverSampler to fix dataset imbalance
+  - 
+  - 
+5. Evaluated which model did better and asked ourselves whether its necessary to do this all the time. 
 
 ### Results
 
-* Machine Learning Model 1:
+* Machine Imbalanced Model:
     - Accuracy is .99 and indicates that model 1 can correctly identify based on the dataset on hand.
       
     **Healthy Loans**
@@ -28,7 +32,7 @@
     - Recall for High-Risk Loans id .91 which is strong and has a good ability to correctly identify.
     - F1-Score for High-Risk Loans is .88 which is favoraable performance even though there is an imbalance.
 
-* Machine Learning Model 2:
+* Machine Learning Resampled Mod:
     - The accuracy does not change and is reassuring that it can correctly classify.
     
      **Healthy Loans**
