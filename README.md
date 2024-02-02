@@ -40,7 +40,9 @@ In this section, describe the analysis you completed for the machine learning mo
 
 ### Summary
 **Which one seems to perform best? How do you know it performs best?**
-The second model performes best, and despite the results of Healthy loans not changing, the increased performance and improved ability to accuratley identify for Healthy Loans is a good indication of a better model esepecially for imbalalanced datasets.
+
+- The second model performes best, and despite the results of Healthy loans not changing, the increased performance and improved ability to accuratley identify for Healthy Loans is a good indication of a better model esepecially for imbalalanced datasets.
 
 **Does performance depend on the problem we are trying to solve?**
- - The performance is relative to the problem at hand, sometimes we just need something to do the job and sometimes we focus on the performance to compensate for instances of data imbalances. Especially when we a indentifying high-risk loans because the costs of missing high-risks loans are inestimable and can lead to unecessary losses.
+
+- The performance is relative to the problem at hand, sometimes we just need something to do the job and sometimes we focus on the performance to compensate for instances of data imbalances. Especially when we a indentifying high-risk loans because the costs of missing high-risks loans are inestimable and can lead to unecessary losses.
