@@ -31,7 +31,7 @@
     - Recall for High-Risk Loans id .91 which is strong and has a good ability to correctly identify.
     - F1-Score for High-Risk Loans is .88 which is favoraable performance even though there is an imbalance.
 
-* Machine Learning Resampled Mod:
+* Machine Learning Resampled Model:
     - The accuracy does not change and is reassuring that it can correctly classify.
     
      **Healthy Loans**
