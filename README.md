@@ -12,8 +12,6 @@ In this section, describe the analysis you completed for the machine learning mo
 
 ### Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * Machine Learning Model 1:
     - Accuracy is .99 and indicates that model 1 can correctly identify based on the dataset on hand.
       
@@ -41,9 +39,8 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
      - F1-Score has slightly increased to stronger .91 and providing improved performance even with a lower precision value.
 
 ### Summary
+**Which one seems to perform best? How do you know it performs best?**
+The second model performes best, and despite the results of Healthy loans not changing, the increased performance and improved ability to accuratley identify for Healthy Loans is a good indication of a better model esepecially for imbalalanced datasets.
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
- - The second model performes best, and despite the results of Healthy loans not changing, the increased performance and improved ability to accuratley identify for Healthy Loans is a good indication of a better model esepecially for imbalalanced datasets.
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+**Does performance depend on the problem we are trying to solve?**
  - The performance is relative to the problem at hand, sometimes we just need something to do the job and sometimes we focus on the performance to compensate for instances of data imbalances. Especially when we a indentifying high-risk loans because the costs of missing high-risks loans are inestimable and can lead to unecessary losses.
