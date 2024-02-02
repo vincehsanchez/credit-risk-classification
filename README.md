@@ -13,8 +13,7 @@
   - printing the classification report 
 4. Create a second logistic regression model with resampled data since the orignal dataset was imbalanced.
   - used RandomOverSampler to fix dataset imbalance
-  - 
-  - 
+  - fit model and made predictions
 5. Evaluated which model did better and asked ourselves whether its necessary to do this all the time. 
 
 ### Results
